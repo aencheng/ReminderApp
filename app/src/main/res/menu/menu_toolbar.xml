@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/add"
+        android:title="Add"
+        android:icon="@drawable/baseline_add_circle_24"
+        app:showAsAction="always"/>
+    <item android:id="@+id/feedback"
+        android:title="Feedback"
+        android:icon="@drawable/baseline_feedback_24"
+        app:showAsAction="never"/>
+    <item android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/baseline_question_mark_24"
+        app:showAsAction="never"/>
+
+
+</menu>
