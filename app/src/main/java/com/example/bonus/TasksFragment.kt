@@ -69,7 +69,7 @@ class TasksFragment : Fragment() {
 
         viewModel.navigateToReminder.observe(viewLifecycleOwner, Observer { reminderId ->
             reminderId?.let {
-                val action = TasksFragmentDirections.actionTasksFragmentToReminderFragment()
+                val action = TasksFragmentDirections.actionTasksFragmentToEditFragment(reminderId)
                 this.findNavController().navigate(action)
                 viewModel.onReminderNavigated()
             }
